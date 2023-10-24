@@ -1,0 +1,29 @@
+.box {
+  float: left;
+  background-color: aqua;
+}
+.box::after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+.box .tbox {
+  float: left;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+  background-color: rebeccapurple;
+}
+.boxx {
+  clear: both;
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+}
+.boxx .inner {
+  width: 50px;
+  height: 50px;
+  background-color: bisque;
+}
