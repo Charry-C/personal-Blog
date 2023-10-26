@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+.main {
+  width: 95%;
+  margin: 0 auto;
+}
 .header {
   height: 60px;
   background-color: #1e45a1;
@@ -26,13 +30,13 @@
 }
 .per-main {
   display: flex;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   justify-content: space-evenly;
   margin-top: 30px;
 }
 .per-main .about-me {
-  width: 500px;
+  width: 400px;
   height: 400px;
   background-color: #ffffff;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -40,6 +44,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 100px;
 }
 .per-main .about-me .head-logo {
   margin-top: 20px;
@@ -73,31 +78,36 @@
 .per-main .about-me .typewriter {
   font-style: italic;
   color: #6c63ff;
-  position: relative;
   box-sizing: content-box;
   padding: 10px 5px;
+  width: 100%;
+  text-align: center;
 }
-.per-main .about-me .typewriter::after {
+.per-main .about-me .typewriter span {
+  position: relative;
+}
+.per-main .about-me .typewriter span::after {
   content: "";
   position: absolute;
-  right: -2px;
-  bottom: 12px;
+  right: -8px;
+  bottom: 2px;
   width: 2px;
   height: 16px;
   background-color: transparent;
   border-left: 2px solid #6c63ff;
-  animation: flashLine 0.8s linear infinite;
+  animation: flashLine 0.6s linear infinite;
 }
 .per-main .info {
   position: relative;
-  width: 400px;
+  width: 430px;
   height: 300px;
   z-index: 4;
   margin-top: 50px;
+  padding: 30px;
 }
 .per-main .info .card {
   position: absolute;
-  width: 400px;
+  width: 430px;
   height: 300px;
   background-color: #ffffff;
   top: 0;
@@ -192,13 +202,13 @@
   margin-top: 60px;
   display: flex;
   width: 100%;
-  height: 800px;
+  height: 300px;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .per-life .pic {
   width: 8%;
-  height: 300px;
+  height: 400px;
   transition: all 0.3s;
   border-radius: 5px;
   transform-style: preserve-3d;
@@ -213,17 +223,17 @@
   position: absolute;
 }
 .per-life .pic .side:nth-child(1) {
-  background-color: #dd00a9ca;
+  background-color: #dd00a9;
 }
 .per-life .pic .side:nth-child(2) {
   width: 100%;
   height: 100%;
-  background-color: #006effbb;
+  background-color: #006eff;
 }
 .per-life .pic .side:nth-child(3) {
   width: 100%;
   height: 100%;
-  background-color: #00ff4cb3;
+  background-color: #00ff4c;
 }
 .per-life .pic:nth-child(1) {
   animation-delay: 0s;
