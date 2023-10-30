@@ -2,19 +2,14 @@
   margin: 0;
   padding: 0;
 }
-<<<<<<< HEAD
-.main {
-  width: 95%;
-  margin: 0 auto;
+body {
+  background: url(https://cali.so/grid-black.svg);
 }
-=======
->>>>>>> 3ca492b923fd621b72209557110ad2a215516ed3
 .header {
   height: 60px;
   background-color: #1e45a1;
   position: sticky;
   top: 0;
-  margin-bottom: 10px;
   box-shadow: rgba(13, 13, 117, 0.382) 0px 1px 0px;
   z-index: 999;
 }
@@ -31,23 +26,21 @@
   width: 100%;
   height: 100%;
 }
+.main {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fffefe;
+  padding-top: 20px;
+  box-shadow: rgba(77, 114, 200, 0.08) 0px 4px 12px;
+}
 .per-main {
   display: flex;
-<<<<<<< HEAD
   width: 85%;
-=======
-  width: 80%;
->>>>>>> 3ca492b923fd621b72209557110ad2a215516ed3
   margin: 0 auto;
   justify-content: space-evenly;
-  margin-top: 30px;
 }
 .per-main .about-me {
-<<<<<<< HEAD
   width: 400px;
-=======
-  width: 500px;
->>>>>>> 3ca492b923fd621b72209557110ad2a215516ed3
   height: 400px;
   background-color: #ffffff;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -55,10 +48,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-<<<<<<< HEAD
   padding: 0 100px;
-=======
->>>>>>> 3ca492b923fd621b72209557110ad2a215516ed3
 }
 .per-main .about-me .head-logo {
   margin-top: 20px;
@@ -92,7 +82,6 @@
 .per-main .about-me .typewriter {
   font-style: italic;
   color: #6c63ff;
-<<<<<<< HEAD
   box-sizing: content-box;
   padding: 10px 5px;
   width: 100%;
@@ -106,22 +95,10 @@
   position: absolute;
   right: -8px;
   bottom: 2px;
-=======
-  position: relative;
-  box-sizing: content-box;
-  padding: 10px 5px;
-}
-.per-main .about-me .typewriter::after {
-  content: "";
-  position: absolute;
-  right: -2px;
-  bottom: 12px;
->>>>>>> 3ca492b923fd621b72209557110ad2a215516ed3
   width: 2px;
   height: 16px;
   background-color: transparent;
   border-left: 2px solid #6c63ff;
-<<<<<<< HEAD
   animation: flashLine 0.6s linear infinite;
 }
 .per-main .info {
@@ -134,22 +111,8 @@
 }
 .per-main .info .card {
   position: absolute;
-  width: 430px;
-=======
-  animation: flashLine 0.8s linear infinite;
-}
-.per-main .info {
-  position: relative;
-  width: 400px;
-  height: 300px;
-  z-index: 4;
-  margin-top: 50px;
-}
-.per-main .info .card {
-  position: absolute;
-  width: 400px;
->>>>>>> 3ca492b923fd621b72209557110ad2a215516ed3
-  height: 300px;
+  width: 450px;
+  height: 330px;
   background-color: #ffffff;
   top: 0;
   transform-origin: right bottom;
@@ -240,24 +203,17 @@
   margin-left: 0px;
 }
 .per-life {
-  margin-top: 60px;
+  margin-top: 30px;
   display: flex;
   width: 100%;
-<<<<<<< HEAD
-  height: 300px;
-=======
-  height: 800px;
->>>>>>> 3ca492b923fd621b72209557110ad2a215516ed3
+  height: 480px;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .per-life .pic {
-  width: 8%;
-<<<<<<< HEAD
-  height: 400px;
-=======
-  height: 300px;
->>>>>>> 3ca492b923fd621b72209557110ad2a215516ed3
+  width: 12%;
+  margin: 0 5px;
+  height: 480px;
   transition: all 0.3s;
   border-radius: 5px;
   transform-style: preserve-3d;
@@ -271,30 +227,17 @@
   height: 100%;
   position: absolute;
 }
-.per-life .pic .side:nth-child(1) {
-<<<<<<< HEAD
-  background-color: #dd00a9;
-=======
-  background-color: #dd00a9ca;
->>>>>>> 3ca492b923fd621b72209557110ad2a215516ed3
-}
-.per-life .pic .side:nth-child(2) {
+.per-life .pic .side:nth-child(1) img {
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
-  background-color: #006eff;
-=======
-  background-color: #006effbb;
->>>>>>> 3ca492b923fd621b72209557110ad2a215516ed3
 }
-.per-life .pic .side:nth-child(3) {
+.per-life .pic .side:nth-child(2) img {
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
-  background-color: #00ff4c;
-=======
-  background-color: #00ff4cb3;
->>>>>>> 3ca492b923fd621b72209557110ad2a215516ed3
+}
+.per-life .pic .side:nth-child(3) img {
+  width: 100%;
+  height: 100%;
 }
 .per-life .pic:nth-child(1) {
   animation-delay: 0s;
@@ -325,6 +268,107 @@
 }
 .per-life .pic:nth-child(10) {
   animation-delay: 2.7s;
+}
+.per-blog {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+}
+.per-blog .blog-info {
+  flex: 1;
+}
+.per-blog .blog-info .about {
+  margin-left: 10px;
+}
+.per-blog .blog-info .about i {
+  color: #d135b2;
+}
+.per-blog .blog-info .about span {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  color: #da00ae;
+}
+.per-blog .blog-info .column {
+  width: 95%;
+  height: 600px;
+  background-color: #ffffff;
+  box-shadow: rgba(3, 75, 200, 0.25) 0px 4px 8px -2px;
+  margin: 12px 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.per-blog .blog-info .column .circle {
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 20px;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #d135b2;
+  border-radius: 50%;
+}
+.per-blog .blog-item {
+  flex: 5;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+.per-blog .blog-item .tag {
+  width: 100%;
+  margin-left: 30px;
+}
+.per-blog .blog-item .tag i {
+  color: #da00ae;
+}
+.per-blog .blog-item .tag span {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  color: #da00ae;
+}
+.per-blog .blog-item .item {
+  width: 47%;
+  height: 380px;
+  background-color: #ffffff;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: rgba(3, 75, 200, 0.25) 0px 4px 8px -2px;
+  transition: all 0.3s;
+}
+.per-blog .blog-item .item:hover {
+  box-shadow: rgba(207, 222, 248, 0.728) 0px 4px 8px -2px;
+  transform: translateY(-3px);
+}
+.page-switch {
+  width: 45%;
+  margin: 50px auto;
+  text-align: center;
+}
+.page-switch .pages {
+  display: inline-block;
+  margin: 0 auto;
+}
+.page-switch .pages a {
+  text-decoration: none;
+  margin: 0 3px;
+}
+.page-switch .pages a span {
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: rgba(3, 75, 200, 0.25) 0px 4px 8px -2px, rgba(12, 78, 159, 0.08) 0px 0px 0px 1px;
+  padding: 5px 10px;
+}
+.page-switch .right,
+.page-switch .left {
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: rgba(3, 75, 200, 0.25) 0px 4px 8px -2px, rgba(12, 78, 159, 0.08) 0px 0px 0px 1px;
+  padding: 5px 10px;
+}
+.footer {
+  height: 250px;
+  background-color: #000000;
+  width: 100%;
 }
 @keyframes rotateAnimation {
   from {
