@@ -14,6 +14,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-youxiang:before {
+  content: "\e60c";
+}
+
+.icon-tubiaozhizuomoban:before {
+  content: "\e625";
+}
+
+.icon-github1:before {
+  content: "\ec01";
+}
+
 .icon-weixin:before {
   content: "\e600";
 }
