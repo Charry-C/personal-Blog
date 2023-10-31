@@ -49,12 +49,12 @@ a {
 }
 .per-main {
   display: flex;
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
   justify-content: space-evenly;
 }
 .per-main .about-me {
-  width: 400px;
+  width: 350px;
   height: 400px;
   background-color: #ffffff;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -117,7 +117,7 @@ a {
 }
 .per-main .info {
   position: relative;
-  width: 430px;
+  width: 450px;
   height: 300px;
   z-index: 4;
   margin-top: 50px;
@@ -217,9 +217,9 @@ a {
   margin-left: 0px;
 }
 .per-life {
-  margin-top: 30px;
+  margin: 30px auto;
   display: flex;
-  width: 100%;
+  width: 95%;
   height: 480px;
   flex-direction: row;
   justify-content: space-evenly;
@@ -286,26 +286,26 @@ a {
 .per-blog {
   margin: 0 auto;
   margin-top: 50px;
-  width: 100%;
+  width: 95%;
   display: flex;
-  padding-bottom: 30px;
+  padding: 0 10px 30px 10px;
 }
 .per-blog .blog-info {
   flex: 1.1;
+  position: relative;
 }
 .per-blog .blog-info .about {
-  margin-left: 10px;
+  margin-left: 15px;
   color: #17008b;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
 }
 .per-blog .blog-info .column {
-  width: 95%;
-  height: 550px;
+  width: 90%;
   background-color: #ffffff;
-  box-shadow: rgba(3, 75, 200, 0.25) 0px 4px 8px -2px;
-  margin: 12px 10px;
-  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  margin: 20px auto;
+  padding: 20px;
   border-radius: 5px;
 }
 .per-blog .blog-info .column .personal-info {
@@ -314,8 +314,9 @@ a {
   align-items: center;
 }
 .per-blog .blog-info .column .personal-info .head-logo {
-  width: 100px;
-  height: 100px;
+  margin-top: 15px;
+  width: 115px;
+  height: 115px;
   border-radius: 50%;
 }
 .per-blog .blog-info .column .personal-info .head-logo img {
@@ -329,7 +330,7 @@ a {
 }
 .per-blog .blog-info .column .personal-info .my-name {
   margin: 20px 0;
-  font-size: 25px;
+  font-size: 27px;
   font-weight: 700;
   color: #ac00d7;
   text-shadow: -1px -1px #fff, 1px 1px #f200ff;
@@ -352,7 +353,7 @@ a {
 }
 .per-blog .blog-info .column .personal-info .find-me {
   width: 95%;
-  border: 2px solid #74a9ff;
+  border: 2px solid #1068f6;
   border-left: none;
   border-right: none;
   text-align: center;
@@ -361,7 +362,7 @@ a {
   line-height: 13px;
 }
 .per-blog .blog-info .column .personal-info .find-me a {
-  color: #000000;
+  color: #1068f6;
   text-decoration: none;
 }
 .per-blog .blog-info .column .personal-info .find-me a:nth-child(1):hover {
@@ -379,19 +380,28 @@ a {
 .per-blog .blog-info .column .personal-info .find-me span i {
   font-size: 20px;
 }
+.per-blog .blog-info .column .tag-title {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: #00bbff;
+}
+.per-blog .blog-info .column .tag-title i {
+  margin-right: 5px;
+}
 .per-blog .blog-info .column .blog-tag {
-  margin-top: 30px;
   display: grid;
+  padding: 20px 10px;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5px;
 }
 .per-blog .blog-info .column .blog-tag .tag {
-  height: 80px;
+  height: 75px;
   background-color: #00bbff;
   border-radius: 5px;
   transition: all 0.5s;
   cursor: pointer;
-  line-height: 80px;
+  line-height: 75px;
   text-align: center;
   font-weight: 700;
   color: #fff;
@@ -402,7 +412,7 @@ a {
   content: "";
   position: absolute;
   width: 100%;
-  height: 80px;
+  height: 75px;
   background-color: #00bbff;
   left: 0px;
   transition: all 0.4s;
@@ -415,27 +425,27 @@ a {
   left: -100%;
 }
 .per-blog .blog-item {
-  flex: 5;
+  flex: 4.5;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 20px;
-  align-content: flex-start;
+  flex-direction: column;
 }
 .per-blog .blog-item .tag {
-  width: 100%;
-  margin-left: 30px;
+  width: 50%;
   height: 20px;
   color: #1b258f;
+  margin-left: 50px;
 }
 .per-blog .blog-item .tag span {
   font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
 }
 .per-blog .blog-item .item {
-  width: 47%;
-  height: 380px;
+  width: 92%;
+  height: 430px;
   background-color: #ffffff;
-  margin: 10px auto;
+  margin: 0 auto;
+  margin-top: 20px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -446,7 +456,7 @@ a {
   transform: scale(1.1);
 }
 .per-blog .blog-item .item .blog-photo {
-  height: 300px;
+  height: 320px;
   overflow: hidden;
 }
 .per-blog .blog-item .item .blog-photo img {
@@ -458,7 +468,7 @@ a {
 .per-blog .blog-item .item .blog-info {
   display: flex;
   flex-direction: column;
-  padding: 15px 20px 5px 20px;
+  padding: 30px 20px 5px 20px;
   background: linear-gradient(45deg, #00c6ff, #0072ff);
   color: #ffffff;
 }
@@ -507,14 +517,14 @@ a {
   padding: 5px 10px;
 }
 .footer {
-  height: 100px;
-  background-color: #000000;
+  height: 120px;
+  background-color: #00b3ff;
   width: 100%;
-  color: #22ff00;
+  color: #ffffff;
   text-align: center;
 }
 .footer div {
-  padding-top: 5px;
+  padding-top: 10px;
 }
 @keyframes rotateAnimation {
   from {
